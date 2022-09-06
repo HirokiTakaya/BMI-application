@@ -1,0 +1,131 @@
+body{
+    font-family:ariel ;
+    max-width:1000px;
+}
+img{
+   max-width:100%; 
+}
+header{
+    text-align:center;
+}
+footer{
+    text-align:center;
+}
+h1{
+    color:black;
+    font-weight:bold;
+    font-size:24px;
+    background-color:white;
+}
+h2{
+    color:black;
+    font-weight:bold;
+    font-size:24px;
+    background-color:white;
+    text-align:center;
+}
+figcaption {
+  font-size:12px;
+}
+form{
+    max-width:900px;
+    margin:0 auto;
+}
+.centering{
+    text-align:center;
+}
+
+.red-reverse{
+    color:white;
+    background-color:red;
+}
+.yellow-futo{
+    background:linear-gradient(transparent 65%, yellow 65%);
+}
+.cv-contents{
+    margin:0 auto;
+    max-width:900px;
+    border:1px dashed gray;
+    border-radius:10px;
+    line-height:36px;
+    text-align:left;
+}
+.cv-contents figure.left{
+    float:left;
+}
+.cv-contents figure.right{
+    float:right;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+p.service{
+max-width:900px;
+margin:0 auto;
+}
+a:hover{
+    background-color:darkblue;
+    color:white;
+}
+a:active{
+    background-color:skyblue;
+    color:white;
+} 
+
+
+a{
+    margin:0 auto;
+    background-color:blue;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    border-radius:5px;
+    text-decoration:none;
+    max-width:300px;
+    display:block;
+    animation:prunprun 2.2s ease-in infinite;
+    -webkit-animation:prunprun 2.2s ease-in infinite;
+    -moz-animation:prunprun 2.2s ease-in infinite;
+    -o-animation:prunprun 2.2s ease-in infinite;
+    -ms-animation:prunprun 2.2s ease-in infinite;
+}
+@keyframes prunprun{
+    48%,62%{transform:scale(1.0,1.0);}
+    50%{transform:scale(1.1,0.9);}
+    56%{transform:scale(0.9,1.1)translate(0,-3px);}
+    59%{transform:scale(1.0,1.0)translate(0,-3px);}
+}
+@-webkit-keyframes prunprun{
+    48%,62%{-webkit-transform:scale(1.0,1.0);}
+    50%{-webkit-tranform:scale(1.1,0.9);}
+    56%{-webkit-transform:scale(0.9,1.1)translate(0,-5px);}
+    59%{-webkit-transfrom:scale(1.0,1.0)translate(0,-3px);}
+}
+   
+@media screen and (max-width:600px){
+    body{
+        font-size:1.6vw;
+    }
+    h1{
+        font-size:3.6vw;
+    }
+    h2{
+        font-size:2.4vw;
+    }
+    figcaption{
+        font-size:1.2vw;
+    }
+    .cv-contents figure .left{
+      float:none;
+    }
+    .cv-contents figure .right{
+        float:none;
+    }
+    a{
+        font-size:5.0vw;
+    }
+
+}
+
